@@ -9,6 +9,7 @@ ENV https_proxy http://proxy.wdf.sap.corp:8080
 ENV HTTPS_PROXY http://proxy.wdf.sap.corp:8080
 
 CMD ["echo", "Dockerfile demo Hello World!!"]
-RUN mkdir mynewdir
-RUN touch /mynewdir/mynewfile1
-RUN echo 'this is new container using dockerfile to make image and push to hub' > /mynewdir/mynewfile1
+#RUN mkdir mynewdir
+#RUN touch /mynewdir/mynewfile1
+#RUN echo 'this is new container using dockerfile to make image and push to hub' > /mynewdir/mynewfile1
+RUN echo 'this is new container using dockerfile to make image and push to hub'
