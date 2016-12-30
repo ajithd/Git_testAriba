@@ -13,3 +13,4 @@ CMD ["echo", "Dockerfile demo Hello World!!"]
 #RUN touch /mynewdir/mynewfile1
 #RUN echo 'this is new container using dockerfile to make image and push to hub' > /mynewdir/mynewfile1
 RUN echo 'this is new container using dockerfile to make image and push to hub'
+ENTRYPOINT ["echo", "Dockerfile Entry point demo"]
